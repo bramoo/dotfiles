@@ -14,6 +14,7 @@ See https://news.ycombinator.com/item?id=11070797 for discussion
 git clone --separate-git-dir=$HOME/.dotfiles https://github.com/bramoo/dotfiles.git $HOME/.dotfiles-tmp
 rm -r ~/.dotfiles-tmp
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
+config config status.showUntrackedFiles no
 ```
 
 The usual git operations can be used via the `config` alias
