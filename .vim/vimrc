@@ -1,0 +1,4 @@
+runtime custom/basic.vim
+runtime custom/plugins.vim
+runtime custom/gruvbox.vim
+runtime custom/coc.vim
