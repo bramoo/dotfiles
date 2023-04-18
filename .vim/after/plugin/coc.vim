@@ -1,3 +1,7 @@
+if ! exists(':Coc')
+    finish
+endif
+
 " May need for Vim (not Neovim) since coc.nvim calculates byte offset by count
 " utf-8 byte sequence
 set encoding=utf-8
