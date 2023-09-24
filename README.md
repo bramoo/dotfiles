@@ -17,6 +17,8 @@ alias config='/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
 config config status.showUntrackedFiles no
 ```
 
+When applying config on a new machine, run `config restore .` to "undelete" all files
+
 The usual git operations can be used via the `config` alias
 
 ```
